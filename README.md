@@ -78,7 +78,7 @@ node wordpress-to-prismic-migration.js
 
 ## Blog
 
-You can also check our blog for a detailed step-by-step migration guide: [How to Migrate from WordPress to Prismic](https://www.rwit.io/blog/)
+You can also check our blog for a detailed step-by-step migration guide: [How to Migrate from WordPress to Prismic](https://www.rwit.io/blog/migrate-from-wordpress-to-prismic)
 
 ## Acknowledgments
 
