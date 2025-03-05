@@ -1,0 +1,97 @@
+{
+  "format": "custom",
+  "id": "posts",
+  "label": "posts",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "id",
+          "placeholder": ""
+        }
+      },
+      "title": {
+        "type": "Text",
+        "config": {
+          "label": "title",
+          "placeholder": ""
+        }
+      },
+      "featured_image": {
+        "type": "Image",
+        "config": {
+          "label": "featured_image",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "content": {
+        "type": "StructuredText",
+        "config": {
+          "label": "content",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+        }
+      },
+      "slug": {
+        "type": "Link",
+        "config": {
+          "label": "slug",
+          "placeholder": "",
+          "select": null,
+          "allowTargetBlank": true,
+          "allowText": false,
+          "repeat": false
+        }
+      },
+      "excerpt": {
+        "type": "Text",
+        "config": {
+          "label": "excerpt",
+          "placeholder": ""
+        }
+      },
+      "author": {
+        "type": "Text",
+        "config": {
+          "label": "author",
+          "placeholder": ""
+        }
+      },
+      "date": {
+        "type": "Date",
+        "config": {
+          "label": "date",
+          "placeholder": ""
+        }
+      },
+      "categories": {
+        "type": "Group",
+        "config": {
+          "label": "Categories",
+          "repeat": true,
+          "fields": {
+            "categoryname": {
+              "type": "Text",
+              "config": {
+                "label": "CategoryName",
+                "placeholder": ""
+              }
+            },
+            "categoryslug": {
+              "type": "Text",
+              "config": {
+                "label": "categoryslug",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
