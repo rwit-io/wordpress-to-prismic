@@ -15,12 +15,14 @@ Before running the script, ensure you have:
 1. Clone this repository:
    ```sh
    git clone <repo-url>
-   cd wordpress-to-prismic-migration
+   cd wordpress-to-prismic
    ```
 
 2. Install dependencies:
    ```sh
    npm install
+   OR
+   yarn
    ```
 
 3. Create a `.env` file and add the following environment variables:
@@ -76,7 +78,7 @@ node wordpress-to-prismic-migration.js
 
 ## Blog
 
-You can also check our blog for a detailed step-by-step migration guide: [How to Migrate from WordPress to Sanity](https://www.rwit.io/blog/how-to-migrate-from-wordpress-to-sanity-a-step-by-step-guide)
+You can also check our blog for a detailed step-by-step migration guide: [How to Migrate from WordPress to Prismic](https://www.rwit.io/blog/)
 
 ## Acknowledgments
 
